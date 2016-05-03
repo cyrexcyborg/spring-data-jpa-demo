@@ -20,6 +20,16 @@ public class YamlConfig {
 
     private List<Phone> phones;
 
+    private List<Email> emailInterfaces;
+
+    public List<Email> getEmailInterfaces() {
+        return emailInterfaces;
+    }
+
+    public void setEmailInterfaces(List<Email> emailInterfaces) {
+        this.emailInterfaces = emailInterfaces;
+    }
+
     public Map<String, Integer> getIntMap() {
         return intMap;
     }
@@ -40,10 +50,10 @@ public class YamlConfig {
         return stringMap;
     }
 
-
     public void setStringMap(Map<String, String> stringMap) {
         this.stringMap = stringMap;
     }
+
 
     public String getUserName() {
         return userName;
@@ -78,6 +88,7 @@ public class YamlConfig {
                 ", stringMap=" + stringMap +
                 ", intMap=" + intMap +
                 ", phones=" + phones +
+                ", emailInterfaces=" + emailInterfaces +
                 '}';
     }
 

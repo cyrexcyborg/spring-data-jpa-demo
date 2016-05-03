@@ -6,6 +6,12 @@ emails:
   - hastin@163.com
   - stick2000@sina.com
 
+emailInterfaces:
+  - !org.oursight.learning.jpa.config.yaml.EmailImplV1
+    name: email\:v1
+  - !org.oursight.learning.jpa.config.yaml.EmailImplV2
+      name: email\:v2
+
 phones:
   - !org.oursight.learning.jpa.config.yaml.Phone
     name: home

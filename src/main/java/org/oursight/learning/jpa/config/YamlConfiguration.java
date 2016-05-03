@@ -39,6 +39,6 @@ public class YamlConfiguration {
         YamlConfiguration configuration = new YamlConfiguration();
         YamlConfig config = configuration.getConfig();
 //        System.out.println(config.getIntMap().get("a1"));
-        System.out.println(config.getStringMap().get("a1").getClass());
+        //System.out.println(config.getStringMap().get("a1").getClass());
     }
 }
