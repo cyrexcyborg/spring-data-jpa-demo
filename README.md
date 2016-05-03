@@ -42,3 +42,9 @@ References
 - https://github.com/Fruzenshtein/spr-data  
   http://fruzenshtein.com/spring-mvc-hibernate-maven-crud/
   http://fruzenshtein.com/spring-jpa-data-hibernate-mysql/
+  
+- Yaml configuration support  
+  http://yamlbeans.sourceforge.net/  
+  Also in evernote:
+  github: https://github.com/EsotericSoftware/yamlbeans/blob/master/pom.xml
+  
