@@ -43,6 +43,10 @@ References
   http://fruzenshtein.com/spring-mvc-hibernate-maven-crud/
   http://fruzenshtein.com/spring-jpa-data-hibernate-mysql/
   
+- Spring data elasticsearch intergration  
+  http://docs.spring.io/spring-data/elasticsearch/docs/current/reference/html/#repositories
+  https://github.com/SpringDataElasticsearchDevs/spring-data-elasticsearch-sample-application (an example)
+  
 - Yaml configuration support  
   http://yamlbeans.sourceforge.net/  
   Also in evernote:

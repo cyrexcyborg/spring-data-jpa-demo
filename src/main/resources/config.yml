@@ -7,16 +7,16 @@ emails:
   - stick2000@sina.com
 
 emailInterfaces:
-  - !org.oursight.learning.jpa.config.yaml.EmailImplV1
+  - !org.oursight.learning.spring.data.config.yaml.EmailImplV1
     name: email\:v1
-  - !org.oursight.learning.jpa.config.yaml.EmailImplV2
+  - !org.oursight.learning.spring.data.config.yaml.EmailImplV1
       name: email\:v2
 
 phones:
-  - !org.oursight.learning.jpa.config.yaml.Phone
+  - !org.oursight.learning.spring.data.config.yaml.Phone
     name: home
     number: 110
-  - !org.oursight.learning.jpa.config.yaml.Phone
+  - !org.oursight.learning.spring.data.config.yaml.Phone
     name: work
     number: 120
 
